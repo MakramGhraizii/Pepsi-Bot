@@ -1,0 +1,81 @@
+[0.035s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check': AMENT_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check -DCMAKE_INSTALL_PREFIX=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.295s] -- The CXX compiler identification is GNU 11.4.0
+[0.303s] -- Detecting C compiler ABI info
+[0.404s] -- Detecting C compiler ABI info - done
+[0.415s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.415s] -- Detecting C compile features
+[0.416s] -- Detecting C compile features - done
+[0.421s] -- Detecting CXX compiler ABI info
+[0.524s] -- Detecting CXX compiler ABI info - done
+[0.533s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.533s] -- Detecting CXX compile features
+[0.534s] -- Detecting CXX compile features - done
+[0.536s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.819s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.977s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.040s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.046s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.059s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.077s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.103s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.197s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.201s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.331s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.385s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.478s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.498s] -- Looking for pthread.h
+[1.582s] -- Looking for pthread.h - found
+[1.583s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.676s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.678s] -- Found Threads: TRUE  
+[1.923s] -- Found distance_interfaces: 0.0.0 (/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/share/distance_interfaces/cmake)
+[1.945s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.128s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.228s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.229s] -- Configured cppcheck include dirs: /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check/include
+[2.229s] -- Configured cppcheck exclude dirs and/or files: 
+[2.230s] -- Added test 'lint_cmake' to check CMake code style
+[2.231s] -- Added test 'uncrustify' to check C / C++ code style
+[2.231s] -- Configured uncrustify additional arguments: 
+[2.232s] -- Added test 'xmllint' to check XML markup files
+[2.234s] -- Configuring done
+[2.246s] -- Generating done
+[2.248s] -- Build files have been written to: /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check
+[2.261s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check' returned '0': AMENT_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check -DCMAKE_INSTALL_PREFIX=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check
+[2.263s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check': AMENT_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check -- -j12 -l12
+[2.317s] [ 50%] [32mBuilding CXX object CMakeFiles/distance_sensor_server.dir/src/distance_sensor_server.cpp.o[0m
+[5.534s] In file included from [01m[K/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check/src/distance_sensor_server.cpp:1[m[K:
+[5.534s] [01m[K/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check/include/distance_check/distance_sensor_server.h:[m[K In member function ‘[01m[Kvoid DistanceSensorServer::get_front_distance_callback(std::shared_ptr<distance_interfaces::srv::GetFrontDistance_Request_<std::allocator<void> > >, std::shared_ptr<distance_interfaces::srv::GetFrontDistance_Response_<std::allocator<void> > >)[m[K’:
+[5.534s] [01m[K/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check/include/distance_check/distance_sensor_server.h:27:113:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.534s]    27 | [01;35m[Khared_ptr<distance_interfaces::srv::GetFrontDistance::Request> request[m[K,
+[5.534s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.534s] 
+[13.304s] [100%] [32m[1mLinking CXX executable distance_sensor_server[0m
+[13.794s] [100%] Built target distance_sensor_server
+[13.806s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check' returned '0': AMENT_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check -- -j12 -l12
+[13.834s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check': AMENT_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check
+[13.842s] -- Install configuration: ""
+[13.842s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/include/
+[13.842s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/include//distance_check
+[13.842s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/include//distance_check/distance_sensor_server.h
+[13.842s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/include//distance_check/gripper_object_at_correct_distance.h
+[13.842s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/lib/distance_check/distance_sensor_server
+[13.845s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/lib/distance_check/distance_sensor_server" to ""
+[13.845s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/ament_index/resource_index/package_run_dependencies/distance_check
+[13.845s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/ament_index/resource_index/parent_prefix_path/distance_check
+[13.846s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/environment/ament_prefix_path.sh
+[13.846s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/environment/ament_prefix_path.dsv
+[13.846s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/environment/path.sh
+[13.846s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/environment/path.dsv
+[13.846s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/local_setup.bash
+[13.846s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/local_setup.sh
+[13.847s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/local_setup.zsh
+[13.847s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/local_setup.dsv
+[13.847s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/package.dsv
+[13.847s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/ament_index/resource_index/packages/distance_check
+[13.847s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.847s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/cmake/distance_checkConfig.cmake
+[13.847s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/cmake/distance_checkConfig-version.cmake
+[13.848s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/share/distance_check/package.xml
+[13.850s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check' returned '0': AMENT_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check

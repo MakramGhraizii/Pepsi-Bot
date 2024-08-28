@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/main
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main
 
 # Utility rule file for main_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/main_uninstall.dir/compiler_depend.make
 include CMakeFiles/main_uninstall.dir/progress.make
 
 CMakeFiles/main_uninstall:
-	/usr/bin/cmake -P /home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 main_uninstall: CMakeFiles/main_uninstall
 main_uninstall: CMakeFiles/main_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/main_uninstall.dir/clean:
 .PHONY : CMakeFiles/main_uninstall.dir/clean
 
 CMakeFiles/main_uninstall.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main /home/fourfold/dev/inmind_final_project_test/workspace/build/main /home/fourfold/dev/inmind_final_project_test/workspace/build/main /home/fourfold/dev/inmind_final_project_test/workspace/build/main/CMakeFiles/main_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/CMakeFiles/main_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main_uninstall.dir/depend
 

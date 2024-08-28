@@ -1,8 +1,8 @@
-# Install script for directory: /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/custom_interface_yolo__py
+# Install script for directory: /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/custom_interface_yolo__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fourfold/dev/inmind_final_project_test/workspace/install/custom_interface_yolo")
+  set(CMAKE_INSTALL_PREFIX "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

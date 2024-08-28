@@ -1,0 +1,229 @@
+[0.038s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo -DCMAKE_INSTALL_PREFIX=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo
+[0.974s] -- The C compiler identification is GNU 11.4.0
+[0.975s] -- The CXX compiler identification is GNU 11.4.0
+[0.975s] -- Detecting C compiler ABI info
+[0.975s] -- Detecting C compiler ABI info - done
+[0.975s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.976s] -- Detecting C compile features
+[0.976s] -- Detecting C compile features - done
+[0.976s] -- Detecting CXX compiler ABI info
+[0.976s] -- Detecting CXX compiler ABI info - done
+[0.976s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.977s] -- Detecting CXX compile features
+[0.977s] -- Detecting CXX compile features - done
+[0.977s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.977s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.978s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.978s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.978s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.978s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.979s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.512s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.792s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.201s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.235s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.237s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.278s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.278s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.278s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.278s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.308s] -- Found PythonExtra: .so  
+[2.378s] -- Added test 'lint_cmake' to check CMake code style
+[2.379s] -- Added test 'xmllint' to check XML markup files
+[2.385s] -- Configuring done
+[2.432s] -- Generating done
+[2.438s] -- Build files have been written to: /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo
+[2.452s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo -DCMAKE_INSTALL_PREFIX=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo
+[2.455s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo -- -j12 -l12
+[2.500s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.511s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.533s] [  6%] Built target ament_cmake_python_copy_custom_interface_yolo
+[3.175s] running egg_info
+[3.180s] creating custom_interface_yolo.egg-info
+[3.181s] writing custom_interface_yolo.egg-info/PKG-INFO
+[3.181s] writing dependency_links to custom_interface_yolo.egg-info/dependency_links.txt
+[3.183s] writing top-level names to custom_interface_yolo.egg-info/top_level.txt
+[3.183s] writing manifest file 'custom_interface_yolo.egg-info/SOURCES.txt'
+[3.196s] reading manifest file 'custom_interface_yolo.egg-info/SOURCES.txt'
+[3.196s] writing manifest file 'custom_interface_yolo.egg-info/SOURCES.txt'
+[3.296s] [  6%] Built target ament_cmake_python_build_custom_interface_yolo_egg
+[3.650s] [  9%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_generator_c.dir/rosidl_generator_c/custom_interface_yolo/action/detail/camera_stream__functions.c.o[0m
+[3.791s] [  9%] Built target custom_interface_yolo__cpp
+[3.812s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.819s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.831s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.974s] [ 22%] [32m[1mLinking C shared library libcustom_interface_yolo__rosidl_generator_c.so[0m
+[4.099s] [ 22%] Built target custom_interface_yolo__rosidl_generator_c
+[4.129s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.132s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.136s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.805s] [ 35%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_interface_yolo/action/camera_stream__type_support.cpp.o[0m
+[4.849s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_interface_yolo/action/detail/camera_stream__type_support.cpp.o[0m
+[5.137s] [ 41%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_interface_yolo/action/camera_stream__type_support.cpp.o[0m
+[5.157s] [ 45%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_interface_yolo/action/detail/dds_fastrtps/camera_stream__type_support.cpp.o[0m
+[5.314s] [ 48%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_c.so[0m
+[5.341s] [ 51%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_interface_yolo/action/detail/camera_stream__type_support.c.o[0m
+[5.472s] [ 51%] Built target custom_interface_yolo__rosidl_typesupport_c
+[5.529s] [ 54%] [32m[1mLinking C shared library libcustom_interface_yolo__rosidl_typesupport_introspection_c.so[0m
+[5.643s] [ 54%] Built target custom_interface_yolo__rosidl_typesupport_introspection_c
+[5.660s] [ 58%] [32mBuilding CXX object CMakeFiles/custom_interface_yolo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_interface_yolo/action/detail/camera_stream__type_support_c.cpp.o[0m
+[6.017s] [ 61%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_cpp.so[0m
+[6.152s] [ 61%] Built target custom_interface_yolo__rosidl_typesupport_cpp
+[6.525s] [ 64%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_introspection_cpp.so[0m
+[6.724s] [ 67%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_fastrtps_c.so[0m
+[6.725s] [ 70%] [32m[1mLinking CXX shared library libcustom_interface_yolo__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.828s] [ 70%] Built target custom_interface_yolo__rosidl_typesupport_introspection_cpp
+[7.036s] [ 70%] Built target custom_interface_yolo__rosidl_typesupport_fastrtps_c
+[7.065s] [ 70%] Built target custom_interface_yolo__rosidl_typesupport_fastrtps_cpp
+[7.129s] [ 70%] Built target custom_interface_yolo
+[7.201s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.161s] [ 74%] Built target custom_interface_yolo__py
+[9.183s] [ 77%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_generator_py.dir/rosidl_generator_py/custom_interface_yolo/action/_camera_stream_s.c.o[0m
+[9.354s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/libcustom_interface_yolo__rosidl_generator_py.so[0m
+[9.400s] [ 80%] Built target custom_interface_yolo__rosidl_generator_py
+[9.422s] [ 83%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.429s] [ 87%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_c.c.o[0m
+[9.431s] [ 90%] [32mBuilding C object CMakeFiles/custom_interface_yolo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.578s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.579s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.625s] [ 96%] Built target custom_interface_yolo__rosidl_typesupport_introspection_c__pyext
+[9.629s] [ 96%] Built target custom_interface_yolo__rosidl_typesupport_fastrtps_c__pyext
+[9.670s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.715s] [100%] Built target custom_interface_yolo__rosidl_typesupport_c__pyext
+[9.729s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo -- -j12 -l12
+[9.789s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo
+[9.798s] -- Install configuration: ""
+[9.798s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/ament_index/resource_index/rosidl_interfaces/custom_interface_yolo
+[9.798s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[9.798s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[9.798s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_generator_c__visibility_control.h
+[9.799s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[9.799s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[9.799s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__functions.h
+[9.799s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__functions.c
+[9.799s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__type_support.h
+[9.799s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__struct.h
+[9.800s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/camera_stream.h
+[9.800s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/library_path.sh
+[9.800s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/library_path.dsv
+[9.800s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_c.so
+[9.800s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_c.so" to ""
+[9.800s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[9.801s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[9.801s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.801s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[9.801s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[9.801s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_fastrtps_c.h
+[9.801s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_c.so
+[9.802s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_c.so" to ""
+[9.802s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[9.802s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[9.802s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.802s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[9.803s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[9.803s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_introspection_c.h
+[9.803s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__type_support.c
+[9.803s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_c.so
+[9.803s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_c.so" to ""
+[9.804s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_c.so
+[9.804s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_c.so" to ""
+[9.804s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[9.804s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[9.804s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/camera_stream.hpp
+[9.805s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[9.805s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__struct.hpp
+[9.805s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__builder.hpp
+[9.805s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__traits.hpp
+[9.805s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[9.805s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg
+[9.806s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.806s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[9.806s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[9.806s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_fastrtps_cpp.hpp
+[9.806s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/dds_fastrtps
+[9.806s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_cpp.so
+[9.807s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_fastrtps_cpp.so" to ""
+[9.807s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo
+[9.807s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action
+[9.807s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail
+[9.807s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__rosidl_typesupport_introspection_cpp.hpp
+[9.807s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/include/custom_interface_yolo/custom_interface_yolo/action/detail/camera_stream__type_support.cpp
+[9.807s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_cpp.so
+[9.808s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_introspection_cpp.so" to ""
+[9.808s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_cpp.so
+[9.808s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_typesupport_cpp.so" to ""
+[9.808s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/pythonpath.sh
+[9.809s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/pythonpath.dsv
+[9.809s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info
+[9.809s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/PKG-INFO
+[9.809s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/top_level.txt
+[9.809s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/SOURCES.txt
+[9.810s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo-0.0.0-py3.10.egg-info/dependency_links.txt
+[9.810s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo
+[9.810s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_c.c
+[9.810s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/__init__.py
+[9.810s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.811s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.811s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_introspection_c.c
+[9.811s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/_custom_interface_yolo_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.811s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action
+[9.811s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/_camera_stream.py
+[9.812s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/__init__.py
+[9.812s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/_camera_stream_s.c
+[9.812s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/libcustom_interface_yolo__rosidl_generator_py.so
+[9.812s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.879s] Listing '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo'...
+[9.880s] Compiling '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/__init__.py'...
+[9.880s] Listing '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action'...
+[9.880s] Compiling '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/__init__.py'...
+[9.880s] Compiling '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/action/_camera_stream.py'...
+[9.887s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[9.887s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.887s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[9.888s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.888s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[9.889s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/local/lib/python3.10/dist-packages/custom_interface_yolo/custom_interface_yolo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[9.889s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_py.so
+[9.890s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/lib/libcustom_interface_yolo__rosidl_generator_py.so" to ""
+[9.890s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/action/CameraStream.idl
+[9.890s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/action/CameraStream.action
+[9.890s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/ament_index/resource_index/package_run_dependencies/custom_interface_yolo
+[9.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/ament_index/resource_index/parent_prefix_path/custom_interface_yolo
+[9.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/ament_prefix_path.sh
+[9.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/ament_prefix_path.dsv
+[9.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/path.sh
+[9.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/environment/path.dsv
+[9.892s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.bash
+[9.892s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.sh
+[9.892s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.zsh
+[9.892s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/local_setup.dsv
+[9.893s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.dsv
+[9.893s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/ament_index/resource_index/packages/custom_interface_yolo
+[9.893s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_cExport.cmake
+[9.893s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_cExport-noconfig.cmake
+[9.894s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cExport.cmake
+[9.894s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[9.894s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cExport.cmake
+[9.894s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[9.895s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cExport.cmake
+[9.895s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cExport-noconfig.cmake
+[9.895s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_cppExport.cmake
+[9.895s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cppExport.cmake
+[9.896s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[9.896s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cppExport.cmake
+[9.896s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[9.897s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cppExport.cmake
+[9.897s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yolo__rosidl_typesupport_cppExport-noconfig.cmake
+[9.897s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_pyExport.cmake
+[9.897s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/export_custom_interface_yolo__rosidl_generator_pyExport-noconfig.cmake
+[9.897s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/rosidl_cmake-extras.cmake
+[9.898s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.898s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.898s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_libraries-extras.cmake
+[9.898s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/ament_cmake_export_targets-extras.cmake
+[9.899s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.899s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.899s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yoloConfig.cmake
+[9.899s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/cmake/custom_interface_yoloConfig-version.cmake
+[9.900s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/custom_interface_yolo/share/custom_interface_yolo/package.xml
+[9.904s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo

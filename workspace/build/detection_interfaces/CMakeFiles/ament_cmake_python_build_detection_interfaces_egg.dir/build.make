@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/detection_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces
 
 # Utility rule file for ament_cmake_python_build_detection_interfaces_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/compile
 include CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_detection_interfaces_egg:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces/ament_cmake_python/detection_interfaces && /usr/bin/python3 setup.py egg_info
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces/ament_cmake_python/detection_interfaces && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_detection_interfaces_egg: CMakeFiles/ament_cmake_python_build_detection_interfaces_egg
 ament_cmake_python_build_detection_interfaces_egg: CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces/CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces/CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_detection_interfaces_egg.dir/depend
 

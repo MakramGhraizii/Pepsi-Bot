@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_finder
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder /home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder /home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder /home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_finder /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_finder /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

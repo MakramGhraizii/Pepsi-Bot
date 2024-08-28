@@ -1,8 +1,8 @@
-# Install script for directory: /home/fourfold/dev/inmind_final_project_test/workspace/src/main/main
+# Install script for directory: /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fourfold/dev/inmind_final_project_test/workspace/install/main")
+  set(CMAKE_INSTALL_PREFIX "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/main")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -49,12 +49,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/main_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/main" TYPE EXECUTABLE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/main_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/main" TYPE EXECUTABLE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/main_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/main_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/main_node")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/main_node"
-         OLD_RPATH "/opt/ros/humble/lib:/home/fourfold/dev/inmind_final_project_test/workspace/install/detection_interfaces/lib:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib:/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/main_node")
@@ -69,7 +69,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/test_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/main" TYPE EXECUTABLE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/test_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/main" TYPE EXECUTABLE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/test_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/test_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/main/test_node")
     file(RPATH_CHANGE
@@ -83,11 +83,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/main")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/main")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/main")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/main")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -95,7 +95,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main/environment" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main/environment" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -103,42 +103,42 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main/environment" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main/environment" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_index/share/ament_index/resource_index/packages/main")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_index/share/ament_index/resource_index/packages/main")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main/cmake" TYPE FILE FILES
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_core/mainConfig.cmake"
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/ament_cmake_core/mainConfig-version.cmake"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_core/mainConfig.cmake"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/ament_cmake_core/mainConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/main" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -149,5 +149,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fourfold/dev/inmind_final_project_test/workspace/build/main/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

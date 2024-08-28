@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/navigation/basic_navigation
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/basic_navigation
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -82,14 +82,14 @@ clean: CMakeFiles/basic_navigation_uninstall.dir/clean
 CMakeFiles/uninstall.dir/all: CMakeFiles/basic_navigation_uninstall.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/basic_navigation/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/makramgh/Desktop/Pepsi-Bot/workspace/build/basic_navigation/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/makramgh/Desktop/Pepsi-Bot/workspace/build/basic_navigation/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.
@@ -108,14 +108,14 @@ CMakeFiles/uninstall.dir/clean:
 CMakeFiles/basic_navigation_uninstall.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_navigation_uninstall.dir/build.make CMakeFiles/basic_navigation_uninstall.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/basic_navigation_uninstall.dir/build.make CMakeFiles/basic_navigation_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles --progress-num= "Built target basic_navigation_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/basic_navigation/CMakeFiles --progress-num= "Built target basic_navigation_uninstall"
 .PHONY : CMakeFiles/basic_navigation_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/basic_navigation_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/makramgh/Desktop/Pepsi-Bot/workspace/build/basic_navigation/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/basic_navigation_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/fourfold/dev/inmind_final_project_test/workspace/build/basic_navigation/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/makramgh/Desktop/Pepsi-Bot/workspace/build/basic_navigation/CMakeFiles 0
 .PHONY : CMakeFiles/basic_navigation_uninstall.dir/rule
 
 # Convenience name for target.

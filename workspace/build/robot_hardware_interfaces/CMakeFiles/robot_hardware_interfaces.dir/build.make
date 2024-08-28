@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/robot_hardware_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces
 
 # Utility rule file for robot_hardware_interfaces.
 
@@ -66,7 +66,7 @@ include CMakeFiles/robot_hardware_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/robot_hardware_interfaces.dir/progress.make
 
-CMakeFiles/robot_hardware_interfaces: /home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces/action/GripperAction.action
+CMakeFiles/robot_hardware_interfaces: /home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/robot_hardware_interfaces/action/GripperAction.action
 CMakeFiles/robot_hardware_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/robot_hardware_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/robot_hardware_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -85,6 +85,6 @@ CMakeFiles/robot_hardware_interfaces.dir/clean:
 .PHONY : CMakeFiles/robot_hardware_interfaces.dir/clean
 
 CMakeFiles/robot_hardware_interfaces.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/src/gripper/robot_hardware_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces/CMakeFiles/robot_hardware_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/robot_hardware_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/robot_hardware_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces/CMakeFiles/robot_hardware_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_hardware_interfaces.dir/depend
 

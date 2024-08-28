@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/detection_interfaces
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces
 
 # Utility rule file for detection_interfaces__cpp.
 
@@ -99,8 +99,8 @@ rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humbl
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__builder.hpp: rosidl_generator_cpp/detection_interfaces/action/find_yellow.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/detection_interfaces/action/detail/find_yellow__builder.hpp
@@ -144,6 +144,6 @@ CMakeFiles/detection_interfaces__cpp.dir/clean:
 .PHONY : CMakeFiles/detection_interfaces__cpp.dir/clean
 
 CMakeFiles/detection_interfaces__cpp.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces /home/fourfold/dev/inmind_final_project_test/workspace/build/detection_interfaces/CMakeFiles/detection_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces/CMakeFiles/detection_interfaces__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/detection_interfaces__cpp.dir/depend
 

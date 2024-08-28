@@ -1,9 +1,9 @@
 {
   "package_name": "custom_interface_yolo",
-  "output_dir": "/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/rosidl_typesupport_introspection_c/custom_interface_yolo",
+  "output_dir": "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/rosidl_typesupport_introspection_c/custom_interface_yolo",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/rosidl_adapter/custom_interface_yolo:action/CameraStream.idl"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/rosidl_adapter/custom_interface_yolo:action/CameraStream.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -23,7 +23,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/rosidl_adapter/custom_interface_yolo/action/CameraStream.idl",
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/rosidl_adapter/custom_interface_yolo/action/CameraStream.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",
