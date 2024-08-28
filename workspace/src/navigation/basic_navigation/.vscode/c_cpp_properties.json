@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/opt/ros/humble/include/**",
-        "/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include/**",
+        "~/dev/Pepsi-Bot/workspace/src/navigation/basic_navigation/include/**",
         "include/**",
         "/usr/include/**"
       ],

@@ -13,7 +13,6 @@ find_package(ament_cmake REQUIRED)
 find_package(behaviortree_cpp_v3 REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(basic_navigation REQUIRED)
-find_package(yellow_ball_finder REQUIRED)
 find_package(object_finder REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
@@ -28,12 +27,11 @@ find_package(gripper_actions REQUIRED)
 
 include_directories(include)
 
-add_executable(main_node src/main.cpp)
+add_executable(main_node src/main.cpp src/main_node.cpp)
 ament_target_dependencies(main_node
   behaviortree_cpp_v3
   rclcpp
   basic_navigation
-  yellow_ball_finder
   object_finder
   sensor_msgs
   geometry_msgs
@@ -47,12 +45,8 @@ ament_target_dependencies(main_node
   gripper_actions
 )
 
-add_executable(test_node src/test.cpp)
-ament_target_dependencies(test_node rclcpp geometry_msgs)
-
 install(TARGETS
   main_node
-  test_node
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

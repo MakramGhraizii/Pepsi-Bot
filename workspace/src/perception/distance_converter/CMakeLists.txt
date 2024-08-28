@@ -18,7 +18,7 @@ include_directories(
   include
 )
 
-add_executable(distance_converter src/distance_converter.cpp)
+add_executable(distance_converter src/distance_converter_launcher.cpp src/distance_converter.cpp)
 ament_target_dependencies(distance_converter rclcpp sensor_msgs std_msgs)
 
 install(TARGETS

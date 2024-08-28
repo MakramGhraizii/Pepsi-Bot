@@ -6,13 +6,11 @@
         "limitSymbolsToIncludedHeaders": false
       },
       "includePath": [
-        "/home/fourfold/dev/inmind_final_project_test/workspace/install/yellow_ball_finder/include/**",
-        "/home/fourfold/dev/inmind_final_project_test/workspace/install/basic_navigation/include/**",
+        "~/dev/Pepsi-Bot/workspace/install/basic_navigation/include/**",
         "/opt/ros/humble/include/**",
-        "/home/fourfold/dev/inmind_final_project_test/workspace/src/main/main/include/**",
-        "/home/fourfold/dev/inmind_final_project_test/workspace/src/navigation/basic_navigation/include/**",
-        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/detection_interfaces/include/**",
-        "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/yellow_ball_finder/include/**",
+        "~/dev/Pepsi-Bot/workspace/src/main/main/include/**",
+        "~/dev/Pepsi-Bot/workspace/src/navigation/basic_navigation/include/**",
+        "~/dev/Pepsi-Bot/workspace/src/perception/detection_interfaces/include/**",
         "include/**",
         "/usr/include/**"
       ],

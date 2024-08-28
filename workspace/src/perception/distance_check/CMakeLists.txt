@@ -20,7 +20,7 @@ include_directories(
   include
 )
 
-add_executable(distance_sensor_server src/distance_sensor_server.cpp)
+add_executable(distance_sensor_server src/distance_sensor_server_launcher.cpp src/distance_sensor_server.cpp)
 ament_target_dependencies(distance_sensor_server rclcpp sensor_msgs std_msgs distance_interfaces)
 
 install(
