@@ -1,8 +1,8 @@
-# Install script for directory: /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder
+# Install script for directory: /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_finder
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fourfold/dev/inmind_final_project_test/workspace/install/object_finder")
+  set(CMAKE_INSTALL_PREFIX "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_finder")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,15 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_finder/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/object_finder")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/object_finder")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/object_finder")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/object_finder")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -59,7 +59,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder/environment" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder/environment" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,46 +67,46 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder/environment" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder/environment" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_index/share/ament_index/resource_index/packages/object_finder")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_index/share/ament_index/resource_index/packages/object_finder")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder/cmake" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder/cmake" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder/cmake" TYPE FILE FILES
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_core/object_finderConfig.cmake"
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/ament_cmake_core/object_finderConfig-version.cmake"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_core/object_finderConfig.cmake"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/ament_cmake_core/object_finderConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/object_finder/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/object_finder" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_finder/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -117,5 +117,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fourfold/dev/inmind_final_project_test/workspace/build/object_finder/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_finder/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

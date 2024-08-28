@@ -1,0 +1,21 @@
+[1.261s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/yolov8_webcam': PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/yolov8_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/makramgh/Desktop/Pepsi-Bot/workspace/install/yolov8_webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_webcam build --build-base /home/makramgh/Desktop/Pepsi-Bot/workspace/build/yolov8_webcam/build install --record /home/makramgh/Desktop/Pepsi-Bot/workspace/build/yolov8_webcam/install.log --single-version-externally-managed install_data
+[1.496s] running egg_info
+[1.497s] writing ../../../build/yolov8_webcam/yolov8_webcam.egg-info/PKG-INFO
+[1.497s] writing dependency_links to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/dependency_links.txt
+[1.497s] writing entry points to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/entry_points.txt
+[1.497s] writing requirements to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/requires.txt
+[1.497s] writing top-level names to ../../../build/yolov8_webcam/yolov8_webcam.egg-info/top_level.txt
+[1.499s] reading manifest file '../../../build/yolov8_webcam/yolov8_webcam.egg-info/SOURCES.txt'
+[1.499s] writing manifest file '../../../build/yolov8_webcam/yolov8_webcam.egg-info/SOURCES.txt'
+[1.499s] running build
+[1.499s] running build_py
+[1.500s] running install
+[1.500s] running install_lib
+[1.501s] running install_data
+[1.501s] running install_egg_info
+[1.502s] removing '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam-0.0.0-py3.10.egg-info' (and everything under it)
+[1.502s] Copying ../../../build/yolov8_webcam/yolov8_webcam.egg-info to /home/makramgh/Desktop/Pepsi-Bot/workspace/install/yolov8_webcam/lib/python3.10/site-packages/yolov8_webcam-0.0.0-py3.10.egg-info
+[1.503s] running install_scripts
+[1.519s] Installing yolov8_node script to /home/makramgh/Desktop/Pepsi-Bot/workspace/install/yolov8_webcam/lib/yolov8_webcam
+[1.519s] writing list of installed files to '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/yolov8_webcam/install.log'
+[1.539s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/yolov8_webcam' returned '0': PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/yolov8_webcam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/makramgh/Desktop/Pepsi-Bot/workspace/install/yolov8_webcam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/yolov8_webcam build --build-base /home/makramgh/Desktop/Pepsi-Bot/workspace/build/yolov8_webcam/build install --record /home/makramgh/Desktop/Pepsi-Bot/workspace/build/yolov8_webcam/install.log --single-version-externally-managed install_data

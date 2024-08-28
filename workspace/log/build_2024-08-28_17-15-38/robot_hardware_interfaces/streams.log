@@ -1,0 +1,244 @@
+[0.489s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/robot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces
+[0.970s] -- The C compiler identification is GNU 11.4.0
+[0.970s] -- The CXX compiler identification is GNU 11.4.0
+[0.970s] -- Detecting C compiler ABI info
+[0.970s] -- Detecting C compiler ABI info - done
+[0.970s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.970s] -- Detecting C compile features
+[0.970s] -- Detecting C compile features - done
+[0.971s] -- Detecting CXX compiler ABI info
+[0.971s] -- Detecting CXX compiler ABI info - done
+[0.971s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.971s] -- Detecting CXX compile features
+[0.971s] -- Detecting CXX compile features - done
+[0.971s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.096s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.221s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[1.283s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.292s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.303s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.354s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.473s] -- Found rclcpp_action: 16.0.9 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.719s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.723s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.850s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.896s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.980s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.000s] -- Looking for pthread.h
+[2.082s] -- Looking for pthread.h - found
+[2.082s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.202s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.203s] -- Found Threads: TRUE  
+[2.473s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.036s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.834s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.229s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.274s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[4.280s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.334s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[4.336s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.338s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.338s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.420s] -- Found PythonExtra: .so  
+[4.589s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.676s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.682s] -- Added test 'lint_cmake' to check CMake code style
+[4.686s] -- Added test 'xmllint' to check XML markup files
+[4.695s] -- Configuring done
+[4.785s] -- Generating done
+[4.793s] -- Build files have been written to: /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces
+[4.831s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/robot_hardware_interfaces -DCMAKE_INSTALL_PREFIX=/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces
+[4.832s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces -- -j12 -l12
+[4.938s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.970s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.012s] [  6%] Built target ament_cmake_python_copy_robot_hardware_interfaces
+[5.667s] running egg_info
+[5.668s] creating robot_hardware_interfaces.egg-info
+[5.669s] writing robot_hardware_interfaces.egg-info/PKG-INFO
+[5.669s] writing dependency_links to robot_hardware_interfaces.egg-info/dependency_links.txt
+[5.669s] writing top-level names to robot_hardware_interfaces.egg-info/top_level.txt
+[5.674s] writing manifest file 'robot_hardware_interfaces.egg-info/SOURCES.txt'
+[5.675s] reading manifest file 'robot_hardware_interfaces.egg-info/SOURCES.txt'
+[5.676s] writing manifest file 'robot_hardware_interfaces.egg-info/SOURCES.txt'
+[5.725s] [  6%] Built target ament_cmake_python_build_robot_hardware_interfaces_egg
+[6.359s] [  9%] [32mBuilding C object CMakeFiles/robot_hardware_interfaces__rosidl_generator_c.dir/rosidl_generator_c/robot_hardware_interfaces/action/detail/gripper_action__functions.c.o[0m
+[6.504s] [  9%] Built target robot_hardware_interfaces__cpp
+[6.539s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.539s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.545s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.803s] [ 22%] [32m[1mLinking C shared library librobot_hardware_interfaces__rosidl_generator_c.so[0m
+[6.887s] [ 22%] Built target robot_hardware_interfaces__rosidl_generator_c
+[6.920s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.924s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.924s] [ 32%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.675s] [ 35%] [32mBuilding CXX object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/robot_hardware_interfaces/action/detail/gripper_action__type_support.cpp.o[0m
+[7.688s] [ 38%] [32mBuilding CXX object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/robot_hardware_interfaces/action/detail/dds_fastrtps/gripper_action__type_support.cpp.o[0m
+[7.719s] [ 41%] [32mBuilding CXX object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/robot_hardware_interfaces/action/gripper_action__type_support.cpp.o[0m
+[7.976s] [ 45%] [32mBuilding C object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/robot_hardware_interfaces/action/detail/gripper_action__type_support.c.o[0m
+[8.148s] [ 48%] [32m[1mLinking C shared library librobot_hardware_interfaces__rosidl_typesupport_introspection_c.so[0m
+[8.163s] [ 51%] [32mBuilding CXX object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/robot_hardware_interfaces/action/gripper_action__type_support.cpp.o[0m
+[8.181s] [ 54%] [32mBuilding CXX object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robot_hardware_interfaces/action/detail/gripper_action__type_support_c.cpp.o[0m
+[8.241s] [ 54%] Built target robot_hardware_interfaces__rosidl_typesupport_introspection_c
+[8.260s] [ 58%] [32m[1mLinking CXX shared library librobot_hardware_interfaces__rosidl_typesupport_c.so[0m
+[8.335s] [ 58%] Built target robot_hardware_interfaces__rosidl_typesupport_c
+[8.747s] [ 61%] [32m[1mLinking CXX shared library librobot_hardware_interfaces__rosidl_typesupport_cpp.so[0m
+[8.820s] [ 61%] Built target robot_hardware_interfaces__rosidl_typesupport_cpp
+[8.885s] [ 64%] [32m[1mLinking CXX shared library librobot_hardware_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.911s] [ 67%] [32m[1mLinking CXX shared library librobot_hardware_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.929s] [ 70%] [32m[1mLinking CXX shared library librobot_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.987s] [ 70%] Built target robot_hardware_interfaces__rosidl_typesupport_fastrtps_c
+[9.012s] [ 70%] Built target robot_hardware_interfaces__rosidl_typesupport_introspection_cpp
+[9.066s] [ 70%] Built target robot_hardware_interfaces__rosidl_typesupport_fastrtps_cpp
+[9.087s] [ 70%] Built target robot_hardware_interfaces
+[9.112s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.223s] [ 74%] Built target robot_hardware_interfaces__py
+[10.245s] [ 77%] [32mBuilding C object CMakeFiles/robot_hardware_interfaces__rosidl_generator_py.dir/rosidl_generator_py/robot_hardware_interfaces/action/_gripper_action_s.c.o[0m
+[10.425s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/robot_hardware_interfaces/librobot_hardware_interfaces__rosidl_generator_py.so[0m
+[10.470s] [ 80%] Built target robot_hardware_interfaces__rosidl_generator_py
+[10.492s] [ 87%] [32mBuilding C object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/robot_hardware_interfaces/_robot_hardware_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.492s] [ 87%] [32mBuilding C object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/robot_hardware_interfaces/_robot_hardware_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.501s] [ 90%] [32mBuilding C object CMakeFiles/robot_hardware_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/robot_hardware_interfaces/_robot_hardware_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.653s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.690s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.713s] [ 96%] Built target robot_hardware_interfaces__rosidl_typesupport_introspection_c__pyext
+[10.736s] [100%] [32m[1mLinking C shared library rosidl_generator_py/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.752s] [100%] Built target robot_hardware_interfaces__rosidl_typesupport_c__pyext
+[10.789s] [100%] Built target robot_hardware_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.803s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces -- -j12 -l12
+[10.862s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces
+[10.875s] -- Install configuration: ""
+[10.877s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/ament_index/resource_index/rosidl_interfaces/robot_hardware_interfaces
+[10.877s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces
+[10.877s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg
+[10.877s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.878s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action
+[10.878s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail
+[10.878s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__functions.c
+[10.878s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__type_support.h
+[10.878s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__struct.h
+[10.879s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__functions.h
+[10.879s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/gripper_action.h
+[10.879s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/library_path.sh
+[10.879s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/library_path.dsv
+[10.879s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_generator_c.so
+[10.879s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_generator_c.so" to ""
+[10.880s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces
+[10.880s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg
+[10.880s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.880s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action
+[10.880s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail
+[10.880s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__rosidl_typesupport_fastrtps_c.h
+[10.880s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_fastrtps_c.so
+[10.881s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[10.881s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces
+[10.881s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action
+[10.881s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail
+[10.881s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__struct.hpp
+[10.882s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__traits.hpp
+[10.882s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__builder.hpp
+[10.882s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/gripper_action.hpp
+[10.882s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces
+[10.882s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg
+[10.883s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.883s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action
+[10.883s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail
+[10.883s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/dds_fastrtps
+[10.883s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__rosidl_typesupport_fastrtps_cpp.hpp
+[10.884s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[10.884s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.884s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces
+[10.884s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg
+[10.884s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.884s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action
+[10.884s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail
+[10.884s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__rosidl_typesupport_introspection_c.h
+[10.884s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__type_support.c
+[10.885s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_introspection_c.so
+[10.885s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[10.885s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_c.so
+[10.885s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_c.so" to ""
+[10.886s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces
+[10.886s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action
+[10.886s] -- Up-to-date: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail
+[10.886s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__type_support.cpp
+[10.886s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/include/robot_hardware_interfaces/robot_hardware_interfaces/action/detail/gripper_action__rosidl_typesupport_introspection_cpp.hpp
+[10.886s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_introspection_cpp.so
+[10.887s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[10.887s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_cpp.so
+[10.888s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_typesupport_cpp.so" to ""
+[10.888s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/pythonpath.sh
+[10.888s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/pythonpath.dsv
+[10.888s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces-0.0.0-py3.10.egg-info
+[10.888s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.889s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.889s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.889s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.889s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces
+[10.889s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.890s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/__init__.py
+[10.890s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/_robot_hardware_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.890s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/_robot_hardware_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.890s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/_robot_hardware_interfaces_s.ep.rosidl_typesupport_c.c
+[10.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/librobot_hardware_interfaces__rosidl_generator_py.so
+[10.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/action
+[10.891s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/action/__init__.py
+[10.892s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/action/_gripper_action.py
+[10.892s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/action/_gripper_action_s.c
+[10.948s] Listing '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces'...
+[10.948s] Compiling '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/__init__.py'...
+[10.948s] Listing '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/action'...
+[10.948s] Compiling '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/action/__init__.py'...
+[10.948s] Compiling '/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/action/_gripper_action.py'...
+[10.954s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.955s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.955s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.956s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.956s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.956s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages/robot_hardware_interfaces/robot_hardware_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.957s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_generator_py.so
+[10.957s] -- Set runtime path of "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/lib/librobot_hardware_interfaces__rosidl_generator_py.so" to ""
+[10.958s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/action/GripperAction.idl
+[10.958s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/action/GripperAction.action
+[10.958s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/ament_index/resource_index/package_run_dependencies/robot_hardware_interfaces
+[10.962s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/ament_index/resource_index/parent_prefix_path/robot_hardware_interfaces
+[10.962s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/ament_prefix_path.sh
+[10.962s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/ament_prefix_path.dsv
+[10.962s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/path.sh
+[10.963s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/environment/path.dsv
+[10.963s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/local_setup.bash
+[10.963s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/local_setup.sh
+[10.963s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/local_setup.zsh
+[10.963s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/local_setup.dsv
+[10.963s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/package.dsv
+[10.964s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/ament_index/resource_index/packages/robot_hardware_interfaces
+[10.964s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_generator_cExport.cmake
+[10.964s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_generator_cExport-noconfig.cmake
+[10.964s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[10.964s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.965s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_generator_cppExport.cmake
+[10.965s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.965s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.965s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[10.965s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.965s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_cExport.cmake
+[10.966s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[10.966s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[10.966s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.966s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_cppExport.cmake
+[10.966s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[10.966s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_generator_pyExport.cmake
+[10.967s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/export_robot_hardware_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[10.967s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/rosidl_cmake-extras.cmake
+[10.967s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.967s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.967s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[10.967s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[10.968s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.968s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.968s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfacesConfig.cmake
+[10.968s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/cmake/robot_hardware_interfacesConfig-version.cmake
+[10.968s] -- Installing: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/share/robot_hardware_interfaces/package.xml
+[10.973s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces

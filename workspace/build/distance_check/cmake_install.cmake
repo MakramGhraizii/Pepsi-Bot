@@ -1,8 +1,8 @@
-# Install script for directory: /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check
+# Install script for directory: /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_check")
+  set(CMAKE_INSTALL_PREFIX "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/" TYPE DIRECTORY FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -53,12 +53,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/distance_check/distance_sensor_server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/distance_check" TYPE EXECUTABLE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/distance_sensor_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/distance_check" TYPE EXECUTABLE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/distance_sensor_server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/distance_check/distance_sensor_server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/distance_check/distance_sensor_server")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/distance_check/distance_sensor_server"
-         OLD_RPATH "/opt/ros/humble/lib:/home/fourfold/dev/inmind_final_project_test/workspace/install/distance_interfaces/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/distance_check/distance_sensor_server")
@@ -67,11 +67,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/distance_check")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/distance_check")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/distance_check")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/distance_check")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -79,7 +79,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check/environment" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_environment_hooks/ament_prefix_path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check/environment" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_environment_hooks/ament_prefix_path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,46 +87,46 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check/environment" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_environment_hooks/path.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check/environment" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_environment_hooks/path.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.bash")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.bash")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.sh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.zsh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.zsh")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_environment_hooks/local_setup.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_environment_hooks/package.dsv")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_environment_hooks/package.dsv")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_index/share/ament_index/resource_index/packages/distance_check")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_index/share/ament_index/resource_index/packages/distance_check")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check/cmake" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check/cmake" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check/cmake" TYPE FILE FILES
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_core/distance_checkConfig.cmake"
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/ament_cmake_core/distance_checkConfig-version.cmake"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_core/distance_checkConfig.cmake"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/ament_cmake_core/distance_checkConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/fourfold/dev/inmind_final_project_test/workspace/src/perception/distance_check/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/distance_check" TYPE FILE FILES "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -137,5 +137,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/fourfold/dev/inmind_final_project_test/workspace/build/distance_check/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_check/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

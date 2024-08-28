@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo
 
 # Utility rule file for custom_interface_yolo__cpp.
 
@@ -94,8 +94,8 @@ rosidl_generator_cpp/custom_interface_yolo/action/camera_stream.hpp: /opt/ros/hu
 rosidl_generator_cpp/custom_interface_yolo/action/camera_stream.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
 rosidl_generator_cpp/custom_interface_yolo/action/camera_stream.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
 rosidl_generator_cpp/custom_interface_yolo/action/camera_stream.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
-	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/rosidl_generator_cpp__arguments.json
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
+	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/rosidl_generator_cpp__arguments.json
 
 rosidl_generator_cpp/custom_interface_yolo/action/detail/camera_stream__builder.hpp: rosidl_generator_cpp/custom_interface_yolo/action/camera_stream.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/custom_interface_yolo/action/detail/camera_stream__builder.hpp
@@ -123,6 +123,6 @@ CMakeFiles/custom_interface_yolo__cpp.dir/clean:
 .PHONY : CMakeFiles/custom_interface_yolo__cpp.dir/clean
 
 CMakeFiles/custom_interface_yolo__cpp.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/CMakeFiles/custom_interface_yolo__cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/CMakeFiles/custom_interface_yolo__cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_interface_yolo__cpp.dir/depend
 

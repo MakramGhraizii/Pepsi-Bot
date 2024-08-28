@@ -1,0 +1,37 @@
+[1.683s] Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_detector': PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detector build --build-base /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build install --record /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/install.log --single-version-externally-managed install_data
+[2.137s] running egg_info
+[2.138s] creating ../../../build/object_detector/object_detector.egg-info
+[2.138s] writing ../../../build/object_detector/object_detector.egg-info/PKG-INFO
+[2.139s] writing dependency_links to ../../../build/object_detector/object_detector.egg-info/dependency_links.txt
+[2.139s] writing entry points to ../../../build/object_detector/object_detector.egg-info/entry_points.txt
+[2.139s] writing requirements to ../../../build/object_detector/object_detector.egg-info/requires.txt
+[2.139s] writing top-level names to ../../../build/object_detector/object_detector.egg-info/top_level.txt
+[2.140s] writing manifest file '../../../build/object_detector/object_detector.egg-info/SOURCES.txt'
+[2.142s] reading manifest file '../../../build/object_detector/object_detector.egg-info/SOURCES.txt'
+[2.143s] writing manifest file '../../../build/object_detector/object_detector.egg-info/SOURCES.txt'
+[2.143s] running build
+[2.143s] running build_py
+[2.144s] creating /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build
+[2.145s] creating /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build/lib
+[2.145s] creating /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build/lib/object_detector
+[2.145s] copying object_detector/__init__.py -> /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build/lib/object_detector
+[2.145s] copying object_detector/object_detector.py -> /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build/lib/object_detector
+[2.145s] running install
+[2.145s] running install_lib
+[2.146s] creating /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages/object_detector
+[2.147s] copying /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build/lib/object_detector/__init__.py -> /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages/object_detector
+[2.147s] copying /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build/lib/object_detector/object_detector.py -> /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages/object_detector
+[2.148s] byte-compiling /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages/object_detector/__init__.py to __init__.cpython-310.pyc
+[2.149s] byte-compiling /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages/object_detector/object_detector.py to object_detector.cpython-310.pyc
+[2.150s] running install_data
+[2.150s] creating /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/share/ament_index
+[2.150s] creating /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/share/ament_index/resource_index
+[2.150s] creating /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/share/ament_index/resource_index/packages
+[2.151s] copying resource/object_detector -> /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/share/ament_index/resource_index/packages
+[2.151s] copying package.xml -> /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/share/object_detector
+[2.151s] running install_egg_info
+[2.154s] Copying ../../../build/object_detector/object_detector.egg-info to /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages/object_detector-0.0.0-py3.10.egg-info
+[2.155s] running install_scripts
+[2.194s] Installing object_detector script to /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/object_detector
+[2.194s] writing list of installed files to '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/install.log'
+[2.232s] Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_detector' returned '0': PYTHONPATH=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/object_detector build --build-base /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/build install --record /home/makramgh/Desktop/Pepsi-Bot/workspace/build/object_detector/install.log --single-version-externally-managed install_data

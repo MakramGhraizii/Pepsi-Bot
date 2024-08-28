@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo
 
 # Utility rule file for ament_cmake_python_build_custom_interface_yolo_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/compil
 include CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/ament_cmake_python/custom_interface_yolo && /usr/bin/python3 setup.py egg_info
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/ament_cmake_python/custom_interface_yolo && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_custom_interface_yolo_egg: CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg
 ament_cmake_python_build_custom_interface_yolo_egg: CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ament_cmake_python_build_custom_interface_yolo_egg.dir/depend
 

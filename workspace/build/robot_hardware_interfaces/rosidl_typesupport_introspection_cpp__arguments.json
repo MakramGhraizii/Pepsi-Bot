@@ -1,9 +1,9 @@
 {
   "package_name": "robot_hardware_interfaces",
-  "output_dir": "/home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces/rosidl_typesupport_introspection_cpp/robot_hardware_interfaces",
+  "output_dir": "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces/rosidl_typesupport_introspection_cpp/robot_hardware_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces/rosidl_adapter/robot_hardware_interfaces:action/GripperAction.idl"
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces/rosidl_adapter/robot_hardware_interfaces:action/GripperAction.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -23,7 +23,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/fourfold/dev/inmind_final_project_test/workspace/build/robot_hardware_interfaces/rosidl_adapter/robot_hardware_interfaces/action/GripperAction.idl",
+    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/robot_hardware_interfaces/rosidl_adapter/robot_hardware_interfaces/action/GripperAction.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

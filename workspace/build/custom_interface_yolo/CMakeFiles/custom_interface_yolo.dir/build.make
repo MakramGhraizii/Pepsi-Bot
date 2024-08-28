@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo
+CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo
+CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo
 
 # Utility rule file for custom_interface_yolo.
 
@@ -66,7 +66,7 @@ include CMakeFiles/custom_interface_yolo.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/custom_interface_yolo.dir/progress.make
 
-CMakeFiles/custom_interface_yolo: /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo/action/CameraStream.action
+CMakeFiles/custom_interface_yolo: /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo/action/CameraStream.action
 CMakeFiles/custom_interface_yolo: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 CMakeFiles/custom_interface_yolo: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 CMakeFiles/custom_interface_yolo: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -85,6 +85,6 @@ CMakeFiles/custom_interface_yolo.dir/clean:
 .PHONY : CMakeFiles/custom_interface_yolo.dir/clean
 
 CMakeFiles/custom_interface_yolo.dir/depend:
-	cd /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo /home/fourfold/dev/inmind_final_project_test/workspace/build/custom_interface_yolo/CMakeFiles/custom_interface_yolo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/CMakeFiles/custom_interface_yolo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_interface_yolo.dir/depend
 
