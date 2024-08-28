@@ -3,6 +3,7 @@ from rclpy.node import Node
 from rclpy.callback_groups import ReentrantCallbackGroup
 from detection_interfaces.action import FindObject
 from rclpy.action import ActionServer
+from sensor_msgs.msg import Image
 from sensor_msgs.msg import CompressedImage
 from cv_bridge import CvBridge
 from ultralytics import YOLO
@@ -36,9 +37,11 @@ class ObjectDetector(Node):
 
         # Create a subscription to the TurtleBot3 camera topic
         self.subscription = self.create_subscription(
-            CompressedImage,
+            # CompressedImage,
             # '/robot_interfaces/compressed',  # Replace with the correct topic if different
-            '/camera/image_raw/compressed',
+            # '/camera/image_raw/compressed',
+            Image,
+            '/camera/image_raw',
             self.image_callback,
             10,
             callback_group=self.reentrant_group
@@ -48,8 +51,9 @@ class ObjectDetector(Node):
 
     def image_callback(self, msg):
         # # Convert ROS Image message to OpenCV image
-        np_arr = np.frombuffer(msg.data, np.uint8)
-        self.frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+        # np_arr = np.frombuffer(msg.data, np.uint8)
+        # self.frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+        self.frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
 
         # Convert the frame to grayscale
         self.gray_frame = cv2.cvtColor(self.frame, cv2.COLOR_BGR2GRAY)
