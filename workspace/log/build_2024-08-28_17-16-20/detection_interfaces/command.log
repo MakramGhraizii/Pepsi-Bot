@@ -1,4 +1,0 @@
-Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces -- -j12 -l12
-Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces -- -j12 -l12
-Invoking command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces
-Invoked command in '/home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/makramgh/Desktop/Pepsi-Bot/workspace/build/detection_interfaces

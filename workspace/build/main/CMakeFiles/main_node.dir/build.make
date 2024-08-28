@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main
+CMAKE_SOURCE_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main
+CMAKE_BINARY_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/build/main
 
 # Include any dependencies generated for this target.
 include CMakeFiles/main_node.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/main_node.dir/progress.make
 include CMakeFiles/main_node.dir/flags.make
 
 CMakeFiles/main_node.dir/src/main.cpp.o: CMakeFiles/main_node.dir/flags.make
-CMakeFiles/main_node.dir/src/main.cpp.o: /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/src/main.cpp
+CMakeFiles/main_node.dir/src/main.cpp.o: /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main/src/main.cpp
 CMakeFiles/main_node.dir/src/main.cpp.o: CMakeFiles/main_node.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main_node.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_node.dir/src/main.cpp.o -MF CMakeFiles/main_node.dir/src/main.cpp.o.d -o CMakeFiles/main_node.dir/src/main.cpp.o -c /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/fourfold/dev/Pepsi-Bot/workspace/build/main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/main_node.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/main_node.dir/src/main.cpp.o -MF CMakeFiles/main_node.dir/src/main.cpp.o.d -o CMakeFiles/main_node.dir/src/main.cpp.o -c /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main/src/main.cpp
 
 CMakeFiles/main_node.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_node.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/src/main.cpp > CMakeFiles/main_node.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main/src/main.cpp > CMakeFiles/main_node.dir/src/main.cpp.i
 
 CMakeFiles/main_node.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_node.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/src/main.cpp -o CMakeFiles/main_node.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main/src/main.cpp -o CMakeFiles/main_node.dir/src/main.cpp.s
 
 # Object files for target main_node
 main_node_OBJECTS = \
@@ -94,19 +94,25 @@ main_node: CMakeFiles/main_node.dir/src/main.cpp.o
 main_node: CMakeFiles/main_node.dir/build.make
 main_node: /opt/ros/humble/lib/libbehaviortree_cpp_v3.so
 main_node: /opt/ros/humble/lib/libcv_bridge.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_c.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_c.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_py.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_fastrtps_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_introspection_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_py.so
 main_node: /opt/ros/humble/lib/librclcpp_action.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_fastrtps_c.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_introspection_c.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_fastrtps_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_introspection_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_generator_py.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_fastrtps_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_introspection_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_fastrtps_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_introspection_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_generator_py.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_typesupport_fastrtps_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_typesupport_fastrtps_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_typesupport_introspection_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_typesupport_introspection_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_typesupport_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_generator_py.so
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
@@ -166,8 +172,8 @@ main_node: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 main_node: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 main_node: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 main_node: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_c.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_typesupport_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/lib/libdetection_interfaces__rosidl_generator_c.so
 main_node: /opt/ros/humble/lib/librclcpp.so
 main_node: /opt/ros/humble/lib/liblibstatistics_collector.so
 main_node: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
@@ -203,21 +209,32 @@ main_node: /opt/ros/humble/lib/librmw_implementation.so
 main_node: /opt/ros/humble/lib/libament_index_cpp.so
 main_node: /opt/ros/humble/lib/librcl_logging_spdlog.so
 main_node: /opt/ros/humble/lib/librcl_logging_interface.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_generator_c.so
 main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
 main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
-main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
-main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+main_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
 main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+main_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+main_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+main_node: /opt/ros/humble/lib/librmw.so
+main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
 main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
 main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+main_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+main_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+main_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_typesupport_c.so
+main_node: /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/lib/libgripper_interfaces__rosidl_generator_c.so
 main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
 main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
@@ -225,22 +242,13 @@ main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 main_node: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
 main_node: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
 main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
+main_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 main_node: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
-main_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-main_node: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-main_node: /opt/ros/humble/lib/libfastcdr.so.1.0.24
-main_node: /opt/ros/humble/lib/librmw.so
-main_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-main_node: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-main_node: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_typesupport_c.so
-main_node: /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/lib/libdistance_interfaces__rosidl_generator_c.so
 main_node: /opt/ros/humble/lib/librosidl_typesupport_c.so
 main_node: /opt/ros/humble/lib/librcpputils.so
 main_node: /opt/ros/humble/lib/librosidl_runtime_c.so
 main_node: /opt/ros/humble/lib/librcutils.so
-main_node: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
@@ -261,7 +269,7 @@ main_node: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
 main_node: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 main_node: CMakeFiles/main_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main_node"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/fourfold/dev/Pepsi-Bot/workspace/build/main/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/main_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -273,6 +281,6 @@ CMakeFiles/main_node.dir/clean:
 .PHONY : CMakeFiles/main_node.dir/clean
 
 CMakeFiles/main_node.dir/depend:
-	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/CMakeFiles/main_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fourfold/dev/Pepsi-Bot/workspace/build/main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main /home/fourfold/dev/Pepsi-Bot/workspace/build/main /home/fourfold/dev/Pepsi-Bot/workspace/build/main /home/fourfold/dev/Pepsi-Bot/workspace/build/main/CMakeFiles/main_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/main_node.dir/depend
 

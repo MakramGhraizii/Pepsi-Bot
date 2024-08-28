@@ -1,9 +1,9 @@
 {
   "package_name": "distance_interfaces",
-  "output_dir": "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_interfaces/rosidl_generator_py/distance_interfaces",
+  "output_dir": "/home/fourfold/dev/Pepsi-Bot/workspace/build/distance_interfaces/rosidl_generator_py/distance_interfaces",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_interfaces/rosidl_adapter/distance_interfaces:srv/GetFrontDistance.idl"
+    "/home/fourfold/dev/Pepsi-Bot/workspace/build/distance_interfaces/rosidl_adapter/distance_interfaces:srv/GetFrontDistance.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -19,6 +19,6 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_interfaces/rosidl_adapter/distance_interfaces/srv/GetFrontDistance.idl"
+    "/home/fourfold/dev/Pepsi-Bot/workspace/build/distance_interfaces/rosidl_adapter/distance_interfaces/srv/GetFrontDistance.idl"
   ]
 }

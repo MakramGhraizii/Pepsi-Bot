@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main
+CMAKE_SOURCE_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main
+CMAKE_BINARY_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/build/main
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main /home/makramgh/Desktop/Pepsi-Bot/workspace/build/main/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fourfold/dev/Pepsi-Bot/workspace/build/main && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main /home/fourfold/dev/Pepsi-Bot/workspace/build/main /home/fourfold/dev/Pepsi-Bot/workspace/build/main /home/fourfold/dev/Pepsi-Bot/workspace/build/main/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

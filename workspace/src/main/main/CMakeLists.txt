@@ -23,6 +23,8 @@ find_package(detection_interfaces REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(distance_interfaces REQUIRED)
 find_package(distance_check REQUIRED)
+find_package(gripper_interfaces REQUIRED)
+find_package(gripper_actions REQUIRED)
 
 include_directories(include)
 
@@ -41,6 +43,8 @@ ament_target_dependencies(main_node
   rclcpp_action
   distance_interfaces
   distance_check
+  gripper_interfaces
+  gripper_actions
 )
 
 add_executable(test_node src/test.cpp)

@@ -1,7 +1,7 @@
 CMakeFiles/main_node.dir/src/main.cpp.o: \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/src/main.cpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/include/main/ensure_detection_ready.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/src/main/main/include/main/ensure_detection_ready.h \
  /opt/ros/humble/include/behaviortree_cpp_v3/behavior_tree.h \
  /opt/ros/humble/include/behaviortree_cpp_v3/controls/parallel_node.h \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_tree.h \
@@ -649,8 +649,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_object.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_object.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__struct.hpp \
  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
@@ -667,8 +667,8 @@ CMakeFiles/main_node.dir/src/main.cpp.o: \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__builder.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__traits.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__builder.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_object__traits.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -718,33 +718,38 @@ CMakeFiles/main_node.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/move_forward.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/move_forward.h \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/twist.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__builder.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/rotate_right.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/move_forward_right.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/move_forward_left.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/halt.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__builder.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__traits.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_finder/include/object_finder/find_object.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_finder/include/object_finder/object_at_center.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_finder/include/object_finder/object_on_right.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_finder/include/object_finder/object_on_left.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/include/distance_check/gripper_object_at_correct_distance.h \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/get_front_distance.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__struct.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__builder.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__traits.hpp \
- /home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/include/main/wait.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/rotate_right.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/move_forward_right.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/move_forward_left.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/basic_navigation/include/basic_navigation/halt.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/find_yellow_ball.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/find_yellow.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__struct.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__builder.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/detection_interfaces/include/detection_interfaces/detection_interfaces/action/detail/find_yellow__traits.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_at_center.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_right.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/yellow_ball_finder/include/yellow_ball_finder/yellow_ball_on_left.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/object_finder/include/object_finder/find_object.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/object_finder/include/object_finder/object_at_center.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/object_finder/include/object_finder/object_on_right.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/object_finder/include/object_finder/object_on_left.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_check/include/distance_check/gripper_object_at_correct_distance.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/get_front_distance.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__struct.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__builder.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/distance_interfaces/include/distance_interfaces/distance_interfaces/srv/detail/get_front_distance__traits.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_actions/include/gripper_actions/close_gripper.h \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/include/gripper_interfaces/gripper_interfaces/srv/gripper_control.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/include/gripper_interfaces/gripper_interfaces/srv/detail/gripper_control__struct.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/include/gripper_interfaces/gripper_interfaces/srv/detail/gripper_control__builder.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_interfaces/include/gripper_interfaces/gripper_interfaces/srv/detail/gripper_control__traits.hpp \
+ /home/fourfold/dev/Pepsi-Bot/workspace/install/gripper_actions/include/gripper_actions/open_gripper.h \
  /opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h

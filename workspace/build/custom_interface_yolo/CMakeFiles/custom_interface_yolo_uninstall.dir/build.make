@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo
+CMAKE_SOURCE_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/src/perception/custom_interface_yolo
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo
+CMAKE_BINARY_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/build/custom_interface_yolo
 
 # Utility rule file for custom_interface_yolo_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/custom_interface_yolo_uninstall.dir/compiler_depend.make
 include CMakeFiles/custom_interface_yolo_uninstall.dir/progress.make
 
 CMakeFiles/custom_interface_yolo_uninstall:
-	/usr/bin/cmake -P /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/fourfold/dev/Pepsi-Bot/workspace/build/custom_interface_yolo/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 custom_interface_yolo_uninstall: CMakeFiles/custom_interface_yolo_uninstall
 custom_interface_yolo_uninstall: CMakeFiles/custom_interface_yolo_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/custom_interface_yolo_uninstall.dir/clean:
 .PHONY : CMakeFiles/custom_interface_yolo_uninstall.dir/clean
 
 CMakeFiles/custom_interface_yolo_uninstall.dir/depend:
-	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo /home/makramgh/Desktop/Pepsi-Bot/workspace/build/custom_interface_yolo/CMakeFiles/custom_interface_yolo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fourfold/dev/Pepsi-Bot/workspace/build/custom_interface_yolo && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/Pepsi-Bot/workspace/src/perception/custom_interface_yolo /home/fourfold/dev/Pepsi-Bot/workspace/build/custom_interface_yolo /home/fourfold/dev/Pepsi-Bot/workspace/build/custom_interface_yolo /home/fourfold/dev/Pepsi-Bot/workspace/build/custom_interface_yolo/CMakeFiles/custom_interface_yolo_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/custom_interface_yolo_uninstall.dir/depend
 

@@ -52,7 +52,7 @@
                 </Sequence>
             </RetryUntilSuccessful>
 
-            <!-- Close gripper -->
+            <CloseGripper/>
 
             <RetryUntilSuccessful num_attempts="100000">
                 <Sequence name="center_robot">
@@ -69,7 +69,7 @@
                 </Sequence>
             </RetryUntilSuccessful>
 
-            <!-- Open gripper -->
+            <OpenGripper/>
 
         </Sequence>
     </BehaviorTree>

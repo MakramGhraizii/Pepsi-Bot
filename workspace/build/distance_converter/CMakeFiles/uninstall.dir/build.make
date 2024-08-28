@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_converter
+CMAKE_SOURCE_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/src/perception/distance_converter
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_converter
+CMAKE_BINARY_DIR = /home/fourfold/dev/Pepsi-Bot/workspace/build/distance_converter
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_converter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_converter /home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_converter /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_converter /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_converter /home/makramgh/Desktop/Pepsi-Bot/workspace/build/distance_converter/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/fourfold/dev/Pepsi-Bot/workspace/build/distance_converter && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/fourfold/dev/Pepsi-Bot/workspace/src/perception/distance_converter /home/fourfold/dev/Pepsi-Bot/workspace/src/perception/distance_converter /home/fourfold/dev/Pepsi-Bot/workspace/build/distance_converter /home/fourfold/dev/Pepsi-Bot/workspace/build/distance_converter /home/fourfold/dev/Pepsi-Bot/workspace/build/distance_converter/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

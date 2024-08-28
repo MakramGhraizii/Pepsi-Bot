@@ -1,6 +1,0 @@
-{
-  "package_name": "robot_hardware_interfaces",
-  "non_idl_tuples": [
-    "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/robot_hardware_interfaces:action/GripperAction.action"
-  ]
-}

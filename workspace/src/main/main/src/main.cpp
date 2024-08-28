@@ -13,7 +13,8 @@
 #include <object_finder/object_on_right.h>
 #include <object_finder/object_on_left.h>
 #include <distance_check/gripper_object_at_correct_distance.h>
-#include <main/wait.h>
+#include <gripper_actions/close_gripper.h>
+#include <gripper_actions/open_gripper.h>
 #include <rclcpp/rclcpp.hpp>
 #include <behaviortree_cpp_v3/behavior_tree.h>
 #include <behaviortree_cpp_v3/bt_factory.h>
@@ -37,7 +38,8 @@ public:
         factory_.registerNodeType<MoveForwardLeft>("MoveForwardLeft");
         factory_.registerNodeType<Halt>("Halt");
         factory_.registerNodeType<GripperObjectAtCorrectDistance>("GripperObjectAtCorrectDistance");
-        factory_.registerNodeType<Wait>("Wait");
+        factory_.registerNodeType<gripper::CloseGripper>("CloseGripper");
+        factory_.registerNodeType<gripper::OpenGripper>("OpenGripper");
         auto tree = factory_.createTreeFromFile("./src/main/main/include/main/main_behavior_tree.xml");
         tree.rootBlackboard()->set<std::string>("ObjectType", "can");
         tree.rootBlackboard()->set<int>("FrameWidth", 0);
