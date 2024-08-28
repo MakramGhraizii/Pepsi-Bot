@@ -38,7 +38,7 @@ class ObjectDetector(Node):
         # Create a subscription to the TurtleBot3 camera topic
         self.subscription = self.create_subscription(
             # CompressedImage,
-            # '/robot_interfaces/compressed',  # Replace with the correct topic if different
+            # '/robot_interfaces/compressed',
             # '/camera/image_raw/compressed',
             Image,
             '/camera/image_raw',
@@ -50,9 +50,14 @@ class ObjectDetector(Node):
         self.get_logger().info("Object detection action server has started. Ready for requests.")
 
     def image_callback(self, msg):
-        # # Convert ROS Image message to OpenCV image
-        # np_arr = np.frombuffer(msg.data, np.uint8)
-        # self.frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+        try:
+            # # Convert ROS Image message to OpenCV image
+            # np_arr = np.frombuffer(msg.data, np.uint8)
+            # self.frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+            pass
+        except Exception as e:
+            self.get_logger().error(f"Failed to process image: {e}")
+        
         self.frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
 
         # Convert the frame to grayscale
@@ -68,6 +73,7 @@ class ObjectDetector(Node):
 
         result = FindObject.Result()
 
+        # Corrupted image or no image topic
         if (self.frame_width is None):
             result.frame_width = 0
             result.found = False
