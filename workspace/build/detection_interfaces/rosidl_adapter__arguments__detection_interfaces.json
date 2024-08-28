@@ -1,7 +1,0 @@
-{
-  "package_name": "detection_interfaces",
-  "non_idl_tuples": [
-    "/home/fourfold/dev/Pepsi-Bot/workspace/src/perception/detection_interfaces:action/FindYellow.action",
-    "/home/fourfold/dev/Pepsi-Bot/workspace/src/perception/detection_interfaces:action/FindObject.action"
-  ]
-}

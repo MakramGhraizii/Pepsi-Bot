@@ -1,6 +1,0 @@
-{
-  "package_name": "distance_interfaces",
-  "non_idl_tuples": [
-    "/home/fourfold/dev/Pepsi-Bot/workspace/src/perception/distance_interfaces:srv/GetFrontDistance.srv"
-  ]
-}
