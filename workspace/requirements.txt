@@ -1,0 +1,16 @@
+# ROS 2 dependencies
+rclpy
+sensor_msgs
+cv_bridge
+
+# YOLO dependencies
+#torch
+#ultralytics
+
+# Image processing and visualization
+#opencv-python
+#Pillow
+
+# Additional utility packages
+#numpy
+pyzbar
