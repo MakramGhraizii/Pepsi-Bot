@@ -3,7 +3,7 @@
 
 #include <behaviortree_cpp_v3/behavior_tree.h>
 #include <rclcpp/rclcpp.hpp>
-#include <detection_interfaces/action/find_yellow.hpp>
+
 
 namespace perception {
     // Condition Node to check if the object is in the center
