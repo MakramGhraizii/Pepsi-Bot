@@ -1,0 +1,77 @@
+<root BTCPP_format="4" main_tree_to_execute="MainTree">
+    
+    <BehaviorTree ID="CenterRobotSubTree">
+        <Fallback name="center_robot">
+            <Sequence name="approach_ball">
+                <ObjectAtCenter frame_width="{FrameWidth}" cx="{CX}"/>
+                <MoveForward/>
+            </Sequence>
+            <Sequence name="rotate_right">
+                <ObjectOnRight frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                <MoveForwardRight error_x="{ErrorX}"/>
+            </Sequence>
+            <Sequence name="rotate_left">
+                <ObjectOnLeft frame_width="{FrameWidth}" cx="{CX}" error_x="{ErrorX}"/>
+                <MoveForwardLeft  error_x="{ErrorX}"/>
+            </Sequence>
+            <ForceFailure>
+                <RotateRight/>
+            </ForceFailure>
+        </Fallback>
+    </BehaviorTree>
+
+    <BehaviorTree ID="FindObjectSubTree">
+        <RetryUntilSuccessful num_attempts="100000">
+            <Fallback name="search_for_object">
+                <FindObject object_type="{ObjectType}" frame_width="{FrameWidth}" cx="{CX}" cy="{CY}"/>
+                <ForceFailure>
+                    <RotateRight/>
+                </ForceFailure>
+            </Fallback>
+        </RetryUntilSuccessful>
+    </BehaviorTree>
+
+    <BehaviorTree ID="MainTree">
+        <Sequence name="main_sequence">
+
+            <RetryUntilSuccessful num_attempts="100000">
+                <EnsureDetectionReady/>
+            </RetryUntilSuccessful>
+
+            <RetryUntilSuccessful num_attempts="100000">
+                <Sequence name="center_robot">
+                
+                    <SubTreePlus ID="FindObjectSubTree" ObjectType="can" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}"/>
+                    
+                    <SubTreePlus ID="CenterRobotSubTree" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}" ErrorX="{ErrorX}"/>
+
+                    <GripperObjectAtCorrectDistance/>
+
+                    <Halt/>
+
+                </Sequence>
+            </RetryUntilSuccessful>
+
+            <!-- Close gripper -->
+
+            <RetryUntilSuccessful num_attempts="100000">
+                <Sequence name="center_robot">
+                
+                    <SubTreePlus ID="FindObjectSubTree" ObjectType="qr" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}"/>
+                    
+                    <SubTreePlus ID="CenterRobotSubTree" FrameWidth="{FrameWidth}" CX="{CX}" CY="{CY}" ErrorX="{ErrorX}"/>
+
+                    <!-- Replace with: CheckIR -->
+                    <GripperObjectAtCorrectDistance/>
+
+                    <Halt/>
+
+                </Sequence>
+            </RetryUntilSuccessful>
+
+            <!-- Open gripper -->
+
+        </Sequence>
+    </BehaviorTree>
+
+</root>
