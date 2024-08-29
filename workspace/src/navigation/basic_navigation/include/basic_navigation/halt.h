@@ -21,7 +21,8 @@ namespace navigation {
             msg.angular.y = 0;
             msg.angular.z = 0;
             cmd_vel_pub_->publish(msg);
-            std::this_thread::sleep_for(std::chrono::milliseconds(50));
+            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Halt.");
+            std::this_thread::sleep_for(std::chrono::milliseconds(100));
             return BT::NodeStatus::SUCCESS;
         }
     private:

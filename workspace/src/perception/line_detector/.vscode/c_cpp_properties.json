@@ -1,0 +1,34 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_finder/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/gripper_actions/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/gripper_interfaces/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_check/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/basic_navigation/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/gripper/gripper_actions/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/main/main/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/navigation/basic_navigation/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_check/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/distance_converter/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/line_detector/include/**",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/src/perception/object_finder/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

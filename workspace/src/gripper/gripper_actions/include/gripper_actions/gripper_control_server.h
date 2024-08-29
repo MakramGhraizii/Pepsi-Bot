@@ -5,10 +5,10 @@
 #include <std_msgs/msg/float32.hpp>
 #include <rclcpp_action/rclcpp_action.hpp>
 #include <gripper_interfaces/srv/gripper_control.hpp>
-#include <gripper_interfaces/action/gripper_action.hpp>
+#include <robot_hardware_interfaces/action/gripper_action.hpp>
 
 namespace gripper {
-    using GripperAction = gripper_interfaces::action::GripperAction;
+    using GripperAction = robot_hardware_interfaces::action::GripperAction;
     using GoalHandleGripperAction = rclcpp_action::ClientGoalHandle<GripperAction>;
 
     class GripperControlServer : public rclcpp::Node {

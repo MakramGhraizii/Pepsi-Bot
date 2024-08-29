@@ -1,0 +1,20 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/gripper_interfaces/local/lib/python3.10/dist-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/robot_hardware_interfaces/local/lib/python3.10/dist-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/object_detector/lib/python3.10/site-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/gripper_interfaces/local/lib/python3.10/dist-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/distance_interfaces/local/lib/python3.10/dist-packages",
+        "/home/makramgh/Desktop/Pepsi-Bot/workspace/install/detection_interfaces/local/lib/python3.10/dist-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -51,6 +51,7 @@ public:
         auto result = action_client->async_send_goal(goal_msg, send_goal_options);
         rclcpp::spin_until_future_complete(this->get_node_base_interface(), result);
 
+        std::this_thread::sleep_for(std::chrono::milliseconds(200));
         return ready ? BT::NodeStatus::SUCCESS : BT::NodeStatus::FAILURE;
     }
 

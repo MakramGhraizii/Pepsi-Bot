@@ -24,6 +24,8 @@ find_package(distance_interfaces REQUIRED)
 find_package(distance_check REQUIRED)
 find_package(gripper_interfaces REQUIRED)
 find_package(gripper_actions REQUIRED)
+find_package(gripper_interfaces REQUIRED)
+find_package(robot_hardware_interfaces REQUIRED)
 
 include_directories(include)
 
@@ -43,6 +45,7 @@ ament_target_dependencies(main_node
   distance_check
   gripper_interfaces
   gripper_actions
+  robot_hardware_interfaces
 )
 
 install(TARGETS
