@@ -27,13 +27,13 @@ namespace navigation {
 
             geometry_msgs::msg::Twist msg;
             msg.linear.x = 0.3;
-            msg.angular.z = -0.004 * error_x;
+            // msg.angular.z = -0.004 * error_x;
+            msg.angular.z = -0.002 * error_x;
             msg.linear.y = 0;
             msg.linear.z = 0;
             msg.angular.x = 0;
             msg.angular.y = 0;
             cmd_vel_pub_->publish(msg);
-            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Move forward right.");
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
             return BT::NodeStatus::SUCCESS;
         }

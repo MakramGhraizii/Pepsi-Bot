@@ -14,14 +14,14 @@ namespace navigation {
         }
         BT::NodeStatus tick() override {
             geometry_msgs::msg::Twist msg;
-            msg.angular.z = -1.0;
+            // msg.angular.z = -1.0;
+            msg.angular.z = -0.5;
             msg.linear.x = 0;
             msg.linear.y = 0;
             msg.linear.z = 0;
             msg.angular.x = 0;
             msg.angular.y = 0;
             cmd_vel_pub_->publish(msg);
-            RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Rotate right.");
             std::this_thread::sleep_for(std::chrono::milliseconds(100));
             return BT::NodeStatus::SUCCESS;
         }
