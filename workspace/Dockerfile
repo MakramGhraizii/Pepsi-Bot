@@ -30,6 +30,9 @@ RUN chown -R root:root /root/workspace
 # Step 7: Remove ROS 2 related dependencies from requirements.txt and install the rest
 RUN sed -i '/rclpy/d;/sensor_msgs/d' /root/workspace/requirements.txt && pip3 install --no-cache-dir -r /root/workspace/requirements.txt || true
 
+RUN apt-get update && \
+    apt-get install -y ros-galactic-image-transport-plugins
+
 # Step 8: Clean the workspace to avoid CMake cache issues
 RUN rm -rf /root/workspace/build /root/ros2_ws/install /root/workspace/log
 
