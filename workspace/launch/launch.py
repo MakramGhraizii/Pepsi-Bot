@@ -15,16 +15,16 @@ def generate_launch_description():
            package='distance_check',
            executable='distance_sensor_server',
         ),
-        #Node(
-        #   package='distance_converter',
-        #   executable='distance_converter',
-        #),
-        #Node(
-        #   package='main',
-        #   executable='main_node',
-        #),
+        Node(
+           package='distance_converter',
+           executable='distance_converter',
+        ),
         Node(
            package='gripper_actions',
            executable='gripper_control_server',
+        ),
+        Node(
+           package='main',
+           executable='main_node',
         ),
     ])

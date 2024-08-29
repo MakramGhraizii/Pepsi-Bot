@@ -15,6 +15,7 @@
   <depend>behaviortree_cpp_v3</depend>
   <depend>rclcpp</depend>
   <depend>gripper_interfaces</depend>
+  <depend>robot_hardware_interfaces</depend>
   <depend>std_msgs</depend>
   <depend>rclcpp_action</depend>
 

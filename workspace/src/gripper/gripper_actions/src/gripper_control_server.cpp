@@ -43,21 +43,22 @@ namespace gripper{
         auto action = request->action;
         if (action == "close") {
             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Received request to close gripper.");
-            // Send action request
-            auto goal_msg = GripperAction::Goal();
-            closed = false;
-            goal_handle = action_client->async_send_goal(goal_msg, send_goal_options).get();
-            goal_sent = true;
-            while (!closed) {
-                std::this_thread::sleep_for(std::chrono::milliseconds(50));
-            }
+            // // Send action request
+            // auto goal_msg = GripperAction::Goal();
+            // closed = false;
+            // goal_handle = action_client->async_send_goal(goal_msg, send_goal_options).get();
+            // goal_sent = true;
+            // while (!closed) {
+            //     std::this_thread::sleep_for(std::chrono::milliseconds(50));
+            // }
+            std::this_thread::sleep_for(std::chrono::milliseconds(2000));
         } else if (action == "open") {
             RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Received request to open gripper.");
-            // Cancel action request
-            if (goal_sent) {
-                action_client->async_cancel_goal(goal_handle);
-                goal_sent = false;
-            }
+            // // Cancel action request
+            // if (goal_sent) {
+            //     action_client->async_cancel_goal(goal_handle);
+            //     goal_sent = false;
+            // }
         } else {
             RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Invalid request.");
         }

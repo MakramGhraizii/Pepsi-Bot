@@ -37,11 +37,11 @@ class ObjectDetector(Node):
 
         # Create a subscription to the TurtleBot3 camera topic
         self.subscription = self.create_subscription(
-            CompressedImage,
-            '/robot_interfaces/compressed',
+            # CompressedImage,
+            # '/robot_interfaces/compressed',
             # '/camera/image_raw/compressed',
-            # Image,
-            # '/camera/image_raw',
+            Image,
+            '/camera/image_raw',
             self.image_callback,
             10,
             callback_group=self.reentrant_group
@@ -50,15 +50,15 @@ class ObjectDetector(Node):
         self.get_logger().info("Object detection action server has started. Ready for requests.")
 
     def image_callback(self, msg):
-        try:
-            # Convert ROS Image message to OpenCV image
-            np_arr = np.frombuffer(msg.data, np.uint8)
-            self.frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
-            pass
-        except Exception as e:
-            self.get_logger().error(f"Failed to process image: {e}")
+        # try:
+        #     # Convert ROS Image message to OpenCV image
+        #     np_arr = np.frombuffer(msg.data, np.uint8)
+        #     self.frame = cv2.imdecode(np_arr, cv2.IMREAD_COLOR)
+        #     pass
+        # except Exception as e:
+        #     self.get_logger().error(f"Failed to process image: {e}")
         
-        # self.frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
+        self.frame = self.bridge.imgmsg_to_cv2(msg, "bgr8")
 
         # Convert the frame to grayscale
         self.gray_frame = cv2.cvtColor(self.frame, cv2.COLOR_BGR2GRAY)
